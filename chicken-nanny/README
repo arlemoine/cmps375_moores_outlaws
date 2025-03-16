@@ -1,0 +1,40 @@
+# Contributing to the Project
+
+1. **Install PlatformIO**:
+    - PlatformIO is an open-source ecosystem for IoT development. It supports multiple platforms and frameworks.
+    - You can install PlatformIO as an extension in Visual Studio Code or as a standalone CLI tool.
+    - For Visual Studio Code, go to the Extensions view (`Ctrl+Shift+X`), search for "PlatformIO IDE", and install it.
+    - For CLI, follow the instructions on the [PlatformIO installation page](https://platformio.org/install).
+
+2. **Clone the Repository**:
+    - Clone the project repository from GitHub to your local machine using the following command:
+
+3. **Open the Project in Visual Studio Code**:
+    - Open Visual Studio Code and use the `File > Open Folder` menu to open the project directory.
+    - PlatformIO should automatically detect the `platformio.ini` file and configure the environment.
+    - Make sure to you are in a platformio project environment or the platformio toolbar will not show up.
+
+4. **Install Project Dependencies**:
+    - PlatformIO will handle the installation of dependencies specified in the `platformio.ini` file.
+    - You can manually install dependencies using the PlatformIO CLI:
+      ```sh
+      pio lib install
+      ```
+
+## Building and Uploading the code
+
+1. **Build the Project**:
+    - Press the build button in the PlatformIO toolbar in Visual Studio Code (checkmark in the top right).
+    - Alternatively, use the PlatformIO build command to compile the project:
+      ```sh
+      pio run
+      ```
+
+2. **Upload the Firmware**:
+    - Connect your development board to your computer.
+    - Use the upload button in the PlatformIO toolbar in Visual Studio Code (dropdown menu next to checkmark in the top right).
+    - Alternatively, use the PlatformIO upload command to flash the firmware to the board:
+      ```sh
+      pio run --target upload
+      ```
+
