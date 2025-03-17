@@ -6,5 +6,6 @@
 // Function Prototypes
 void setupHeating();
 void controlHeating(double currentTempF);
+bool isHeaterOn();
 
 #endif

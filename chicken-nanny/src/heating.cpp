@@ -23,3 +23,7 @@ void controlHeating(double currentTempF) {
     }
   }
 }
+
+bool isHeaterOn() {
+  return heaterIsOn;
+}
