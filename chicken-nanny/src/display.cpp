@@ -14,23 +14,25 @@ void setupDisplay() {
   lcd.print("Temp: ");
   lcd.setCursor(8, 1);
   lcd.print(char(223)); //print degree symbol (°)
-  lcd.print("F");
 }
   
 void updateDisplay(double currentTempF) {
   Serial.print("Temperature: ");
   Serial.print(currentTempF, 1);
-  Serial.println(" °F");
+  Serial.println(" °");
 
   lcd.setCursor(6, 0);
-  // TODO: add code to print time here (on first line of the lcd)
+  dt = clock.now();
+  lcd.print(dt.hour());
+  lcd.print(":");
+  lcd.print(dt.minute());
 
   int roundedTemp = round(currentTempF);
   lcd.setCursor(6, 1);
   lcd.print(roundedTemp);
-  lcd.setCursor(10, 1);
+  lcd.setCursor(9, 1);
   if (isHeaterOn()) {
-    lcd.print("HTR ON");
+    lcd.print("HTR ON ");
   }
   else {
     lcd.print("HTR OFF");

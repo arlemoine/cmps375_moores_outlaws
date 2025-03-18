@@ -3,6 +3,7 @@
 #include <feeder.h>
 #include <display.h>
 #include <max6675.h>
+#include <RTClib.h>
 
 const int sck = 12;
 const int cs = 10;
