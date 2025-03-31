@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val="CarryOut = ^a.b.CarryIn + a.^b.CarryIn +a.b.^CarryIn + a.b.CarryIn"/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val="CarryOut = ^a.b.CarryIn + a.^b.CarryIn +a.b.^CarryIn + a.b.CarryIn"/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(360,590)" to="(420,590)"/>
+    <wire from="(180,190)" to="(240,190)"/>
+    <wire from="(140,580)" to="(140,590)"/>
+    <wire from="(650,660)" to="(690,660)"/>
+    <wire from="(480,840)" to="(480,860)"/>
+    <wire from="(690,630)" to="(690,660)"/>
+    <wire from="(110,400)" to="(150,400)"/>
+    <wire from="(110,360)" to="(150,360)"/>
+    <wire from="(200,270)" to="(240,270)"/>
+    <wire from="(410,620)" to="(410,710)"/>
+    <wire from="(360,250)" to="(400,250)"/>
+    <wire from="(360,290)" to="(400,290)"/>
+    <wire from="(190,870)" to="(190,900)"/>
+    <wire from="(360,510)" to="(400,510)"/>
+    <wire from="(360,470)" to="(400,470)"/>
+    <wire from="(360,670)" to="(400,670)"/>
+    <wire from="(200,860)" to="(230,860)"/>
+    <wire from="(210,490)" to="(240,490)"/>
+    <wire from="(460,920)" to="(490,920)"/>
+    <wire from="(460,380)" to="(490,380)"/>
+    <wire from="(710,620)" to="(730,620)"/>
+    <wire from="(720,830)" to="(740,830)"/>
+    <wire from="(710,600)" to="(730,600)"/>
+    <wire from="(720,850)" to="(740,850)"/>
+    <wire from="(770,610)" to="(800,610)"/>
+    <wire from="(400,610)" to="(420,610)"/>
+    <wire from="(180,620)" to="(180,660)"/>
+    <wire from="(470,850)" to="(470,890)"/>
+    <wire from="(630,920)" to="(700,920)"/>
+    <wire from="(480,860)" to="(490,860)"/>
+    <wire from="(430,870)" to="(430,920)"/>
+    <wire from="(110,660)" to="(180,660)"/>
+    <wire from="(670,750)" to="(750,750)"/>
+    <wire from="(460,860)" to="(460,920)"/>
+    <wire from="(440,630)" to="(440,750)"/>
+    <wire from="(140,610)" to="(140,620)"/>
+    <wire from="(360,710)" to="(410,710)"/>
+    <wire from="(230,860)" to="(230,880)"/>
+    <wire from="(390,600)" to="(390,630)"/>
+    <wire from="(110,250)" to="(150,250)"/>
+    <wire from="(110,290)" to="(150,290)"/>
+    <wire from="(110,470)" to="(150,470)"/>
+    <wire from="(110,510)" to="(150,510)"/>
+    <wire from="(110,190)" to="(150,190)"/>
+    <wire from="(200,380)" to="(240,380)"/>
+    <wire from="(200,600)" to="(240,600)"/>
+    <wire from="(200,840)" to="(240,840)"/>
+    <wire from="(360,400)" to="(400,400)"/>
+    <wire from="(360,360)" to="(400,360)"/>
+    <wire from="(450,830)" to="(490,830)"/>
+    <wire from="(140,610)" to="(170,610)"/>
+    <wire from="(140,590)" to="(170,590)"/>
+    <wire from="(110,580)" to="(140,580)"/>
+    <wire from="(110,620)" to="(140,620)"/>
+    <wire from="(390,600)" to="(420,600)"/>
+    <wire from="(460,610)" to="(490,610)"/>
+    <wire from="(450,840)" to="(480,840)"/>
+    <wire from="(460,270)" to="(490,270)"/>
+    <wire from="(360,630)" to="(390,630)"/>
+    <wire from="(710,590)" to="(730,590)"/>
+    <wire from="(720,840)" to="(740,840)"/>
+    <wire from="(710,610)" to="(730,610)"/>
+    <wire from="(760,820)" to="(780,820)"/>
+    <wire from="(720,860)" to="(740,860)"/>
+    <wire from="(450,850)" to="(470,850)"/>
+    <wire from="(470,490)" to="(490,490)"/>
+    <wire from="(470,890)" to="(490,890)"/>
+    <wire from="(410,620)" to="(420,620)"/>
+    <wire from="(450,860)" to="(460,860)"/>
+    <wire from="(110,900)" to="(190,900)"/>
+    <wire from="(750,630)" to="(750,750)"/>
+    <wire from="(360,750)" to="(440,750)"/>
+    <wire from="(230,880)" to="(240,880)"/>
+    <wire from="(700,870)" to="(700,920)"/>
+    <wire from="(400,610)" to="(400,670)"/>
+    <wire from="(360,920)" to="(430,920)"/>
+    <comp lib="0" loc="(110,470)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(800,610)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="e"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="2" loc="(190,870)" name="Decoder"/>
+    <comp lib="0" loc="(360,710)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="d"/>
+    </comp>
+    <comp lib="2" loc="(460,610)" name="Multiplexer">
+      <a name="select" val="2"/>
+    </comp>
+    <comp lib="0" loc="(490,860)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="d"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(85,67)" name="Text">
+      <a name="text" val="# Progrm-ID: TLogicsim.circ"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="0" loc="(490,830)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="c"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(360,590)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(110,360)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(110,660)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="s"/>
+    </comp>
+    <comp lib="0" loc="(490,490)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="c"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(240,600)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="c"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(360,290)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(360,360)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(490,380)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="c"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(210,490)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(360,400)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="1" loc="(460,270)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(240,840)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="c"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(726,877)" name="Text">
+      <a name="text" val="# Test Splitter Decd4"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="1" loc="(200,270)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(360,750)" name="Pin">
+      <a name="width" val="2"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="s"/>
+    </comp>
+    <comp lib="0" loc="(110,190)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="6" loc="(85,127)" name="Text">
+      <a name="text" val="# Test NOT, And/Nand, Or/Nor, Xor/Xnor, Mux, and Decoder"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="2" loc="(200,600)" name="Multiplexer"/>
+    <comp lib="6" loc="(334,230)" name="Text">
+      <a name="text" val="# Test Nand2: c = a NAND b"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="0" loc="(360,470)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(240,270)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="c"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(490,610)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="e"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(360,510)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(630,920)" name="Pin">
+      <a name="width" val="2"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="s"/>
+    </comp>
+    <comp lib="6" loc="(580,643)" name="Text">
+      <a name="text" val="# Test Splitter Mux4"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="0" loc="(110,400)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="6" loc="(85,85)" name="Text">
+      <a name="text" val="# Author: Kuo-pao Yang"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="0" loc="(110,900)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="s"/>
+    </comp>
+    <comp lib="2" loc="(700,870)" name="Decoder">
+      <a name="select" val="2"/>
+    </comp>
+    <comp lib="0" loc="(360,250)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(490,270)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="c"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(240,190)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="c"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(84,230)" name="Text">
+      <a name="text" val="# Test And2: c = a AND b"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="0" loc="(490,920)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="f"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(360,670)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="c"/>
+    </comp>
+    <comp lib="0" loc="(240,380)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="c"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(85,799)" name="Text">
+      <a name="text" val="# Test Decd2: 1 hot; if (s = 0) c = 1; else d = 1"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="0" loc="(490,890)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="e"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(335,339)" name="Text">
+      <a name="text" val="# Test NOR2: c = a NOR b"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="0" loc="(760,820)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="0" loc="(780,820)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="c"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="2" loc="(770,610)" name="Multiplexer">
+      <a name="select" val="2"/>
+    </comp>
+    <comp lib="0" loc="(360,630)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="6" loc="(85,169)" name="Text">
+      <a name="text" val="# Test NOT:  c = NOT a "/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="6" loc="(335,449)" name="Text">
+      <a name="text" val="# Test XNOR2: c = a XNOR b"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="6" loc="(83,44)" name="Text">
+      <a name="text" val="# Test Logisim Simulator"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="1" loc="(180,190)" name="NOT Gate"/>
+    <comp lib="0" loc="(110,250)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(650,660)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="1" loc="(460,380)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(110,580)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(690,630)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="6" loc="(341,797)" name="Text">
+      <a name="text" val="# Test Decd4: 1 hot; if (s = 00) c = 1; (s = 01) d = 1; (s = 10) e = 1; (s = 11) f = 1 "/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="0" loc="(360,920)" name="Pin">
+      <a name="width" val="2"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="s"/>
+    </comp>
+    <comp lib="0" loc="(670,750)" name="Pin">
+      <a name="width" val="2"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="s"/>
+    </comp>
+    <comp lib="0" loc="(110,620)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(240,880)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="d"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(85,559)" name="Text">
+      <a name="text" val="# Test Mux2: if (s = 0) c = a; else c = b "/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="1" loc="(470,490)" name="XNOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(337,559)" name="Text">
+      <a name="text" val="# Test Mux4: if (s = 00) e = a; (s = 01) e = b; (s = 10) e = c; (s = 11) e = d "/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="6" loc="(86,106)" name="Text">
+      <a name="text" val="# Simulator: Logisim 2.7.1"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="6" loc="(85,339)" name="Text">
+      <a name="text" val="# Test OR2: c = a OR b"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="1" loc="(200,380)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(240,490)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="c"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(85,449)" name="Text">
+      <a name="text" val="# Test XOR2: c = a XOR b"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="2" loc="(430,870)" name="Decoder">
+      <a name="select" val="2"/>
+    </comp>
+    <comp lib="0" loc="(110,290)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(110,510)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="b"/>
+    </comp>
+  </circuit>
+</project>
